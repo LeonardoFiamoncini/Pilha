@@ -23,6 +23,7 @@ int main(void){
     while (1){
         printf("\n\nInforme o operando ou operador (Digite 'q' para sair): ");
         scanf("%s", opcao);
+        
         if (opcao[0] == 'q' || opcao[0] == 'Q') {
             printf("\nSaindo do programa...");
             break;
