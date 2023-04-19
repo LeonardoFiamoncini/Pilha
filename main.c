@@ -1,7 +1,11 @@
+#include <stdio.h>
 #include "pilha.c"
 
+/**
+*\author Leonardo Fiamoncini
+**/
 int main(void){
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "English");
 
     Pilha *pilha = pilha_cria();
     pilha_push(&pilha, 10.0f);
